@@ -30,7 +30,7 @@ Enter the filename for the icon (without extension): example
 
 Output:
 ```
-Icon created and saved as .\\example.png
+Icon created and saved as .\example.png
 ```
 
 ## Features
