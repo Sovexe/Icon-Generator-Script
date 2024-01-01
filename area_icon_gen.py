@@ -6,7 +6,7 @@ def create_icon_with_text(text, file_path):
     # Constants
     width, height = 32, 32  # Image dimensions
     background_alpha = 128  # Alpha value for the background
-    font_size = 9          # Font size (may need adjustment)
+    font_size = 9           # Font size (may need adjustment)
     max_line_length = 8     # Max characters per line
 
     # Generate a random background color with alpha = 128
@@ -21,7 +21,7 @@ def create_icon_with_text(text, file_path):
     # Prepare to draw on the image
     draw = ImageDraw.Draw(image)
     try:
-        # Use a simple
+        # A simple small font
         font = ImageFont.truetype("smalle.otf", font_size)
     except IOError:
         # Default to a simpler font if the preferred one is not available
